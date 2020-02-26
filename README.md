@@ -1,5 +1,5 @@
 # Access Control System
- Embedded system project on Espressif boards
+ Embedded system project on Espressif boards with sensors. Device consist from two modules: RFID connected to PC and supervision module that is powered by powerbank. Data obtained is transmitted to PC via USB. Additionally you can find on sd card images from camera that is triggered by PIR sensor.
 
 |Element| Purpose|
 |---|---|
@@ -11,10 +11,18 @@
 
 ## Operation
 
-ESP8266 sends data obtained from RFID so program running on connected PC can read it (example with putty):
+↓↓↓ ESP8266 sends data obtained from RFID so program running on connected PC can read it (example with putty)
 
-Sample photo from ESP32-CAM took after high-state signal from RFID:
+<img align ="left" width="70%" src="https://github.com/matik251/Access-Control-System/blob/master/rfid_putty.png"> <img align="right" width="20%" src="https://github.com/matik251/Access-Control-System/blob/master/example_photo.png">
+
+Sample photo from ESP32-CAM took after high-state signal from RFID →→→
 
 ## Board scheme
+<p align="center">
+  <img width="70%" src="https://github.com/matik251/Access-Control-System/blob/master/smiw_schemat.PNG">
+</p>
 
 ## Board project
+<p align="center">
+  <img width="70%" src="https://github.com/matik251/Access-Control-System/blob/master/smiw_plytka.PNG">
+</p>
