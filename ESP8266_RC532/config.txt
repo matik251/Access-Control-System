@@ -1,0 +1,5 @@
+D1	SCL
+D2	SDA
+
+3V	VCC
+G	GND
